@@ -5,9 +5,9 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 import static io.restassured.RestAssured.*;
 import io.restassured.response.Response;
-import testbaseclasses.TestBaseJsonHerOkuApp;
+import testbaseclasses.TestBaseHerOkuApp;
 
-public class GetRequest06 extends TestBaseJsonHerOkuApp {
+public class GetRequest06 extends TestBaseHerOkuApp {
 
 	/*
 	 	When 

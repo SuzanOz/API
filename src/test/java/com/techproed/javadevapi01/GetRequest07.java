@@ -7,9 +7,9 @@ import org.testng.asserts.SoftAssert;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import testbaseclasses.TestBaseJsonHerOkuApp;
+import testbaseclasses.TestBaseHerOkuApp;
 
-public class GetRequest07 extends TestBaseJsonHerOkuApp{
+public class GetRequest07 extends TestBaseHerOkuApp{
 /*
  	When 
 	  		I send a GET request to REST API URL https://restful-booker.herokuapp.com/booking/5 
